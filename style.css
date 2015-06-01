@@ -1,0 +1,330 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    background: url(images/body.jpg) center top no-repeat;
+    background-color: #b9d2f8;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    height: 100px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.logo {
+    background: url(images/logo.jpg);
+    height: 107px;
+    width: 221px;
+    float: left;
+}
+
+.menu {
+
+    cursor: auto;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    font-size: 24px;
+    text-shadow: 0 3px 3px #333;
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+#nav {
+    display: inline-block;
+    background-image: url(images/nav.png);
+    height: 47px;
+    width: 155px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    color: black;
+    height: 47px;
+    width: 155px;
+}
+
+.content {
+    background: url(images/white-trans.png);
+    height: 1372px;
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1300px;
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 160px;
+    padding-top: 15px;
+}
+
+.slider {
+    background: url(images/feature-3.jpg);
+    height: 457px;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.featured-video {
+    height: 442px;
+    width: 409px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+}
+
+object {
+  height: 213px;
+  width: 379px;
+  position: relative;
+  margin-top: 11px;
+  margin-left: 15px;
+}
+
+
+.upcoming-events {
+  height: 442px;
+  width: 400px;
+  margin-left: 70px;
+  float: left;
+  margin-top: 30px;
+}
+
+.content-header {
+    height: 60px;
+}
+
+.content-header h2 {
+    line-height: 5px;
+    color: white;
+    font-size: 32px;
+    text-transform: lowercase;
+    font-weight: normal;
+    float: left;
+    margin-left:10px;
+}
+
+.content-header img {
+    float: left;
+    margin-top: 17px;
+}
+
+.video {
+  margin-left: 15px;
+  background: url(images/video-bg.jpg);
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 400px;
+  top: 60px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #4d74bb;
+  text-decoration: none;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+
+p {
+  color: white;
+  line-height: 24px;
+  position: relative;
+  margin-top: -25px;
+  margin-left: -16px;
+}
+
+.content a {
+  margin-left: 25px;
+  background-image: url(images/button-bg.png);
+  text-decoration: none;
+  width: 220px;
+  height: 35px;
+  padding: 10px 0 0 0;
+  float: right;
+  text-align: center;
+  font-size: 24px;
+  color: #4d74bb;
+}
+
+h2 {
+    line-height: 5px;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    float: left;
+    margin-left: 15px;
+}
+
+.upcoming-events img {
+    float: left;
+    margin-top: 17px;
+}
+
+.event {
+    height: 190px;
+    width: 410px;
+    margin-top: -2px;
+    position: relative;
+    top: 20px;
+}
+
+.event-date {
+    height: 80px;
+    width: 60px;
+    float: left;
+}
+
+.event-text {
+    height: 120px;
+    width: 345px;
+    float: right;
+}
+
+.event span {
+    float: left;
+    color: #fff;
+    display: block;
+    font-size: 64px;
+    line-height: 34px;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.month {
+    font-size: 16px !important;
+}
+
+.event-text-header {
+    line-height: 0px;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-left: -17px;
+    margin-bottom: 41px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #4d74bb;
+    text-decoration: none;
+    margin-top: 17px;
+    margin-left: 5px;
+    margin-bottom: 56px;
+}
+
+.meet-the-team {
+
+}
+
+.meet-the-team .content-header {
+    line-height: 5px;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+    top: 70px;
+    left: 55px;
+}
+
+.meet-the-team img {
+    float: left;
+    position: relative;
+    top: 535px;
+    left: -890px;
+}
+
+.meet-the-team a {
+    height: 230px;
+    width: 210px;
+}
+
+.team-member-photos {
+    height: 235px;
+    width: 940px;
+    margin-top: 10px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    left: -55px;
+
+
+}
+.joe {
+    background: url(images/joe.jpg) !important;
+    background-repeat: no-repeat !important
+}
+
+.charlie {
+    background: url(images/charlie.jpg) !important;
+    background-repeat: no-repeat !important
+}
+
+.lars {
+    background: url(images/lars.jpg) !important;
+    background-repeat: no-repeat !important
+}
+
+.marco {
+    background: url(images/marco.jpg) !important;
+    background-repeat: no-repeat !important
+}
+
+.featured-video p {
+    position: relative;
+    left: 20px;
+    top: -25px;
+}
+
+.back-to-top {
+    background-image: none !important;
+    height: 50px;
+    width: 970px;
+    float: right;
+    margin: 14px 24px 0 0;
+    font-size: 12px;
+    text-decoration: none;
+    color: #4d74bb;
+}
+
+.back-to-top {
+    background-image: none !important;
+    height: 50px;
+    width: 970px;
+    margin: auto;
+    position: relative;
+
+}
+
+.back-to-top a {
+    background-image: none !important;
+    float: right;
+    margin: 14px 24px 0 0;
+    font-size: 12px;
+    text-decoration: none;
+    color: #4d74bb;
+    position: relative;
+    top: 310px;
+    left: 50px;
+}
